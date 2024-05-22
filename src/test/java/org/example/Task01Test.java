@@ -17,3 +17,19 @@ public class Task01Test {
 
 
 }
+
+/*
+
++10+
+Bad naming, it's not cleare what is testing
+It would be better to give reasonable names:
+Task01 -> JewelsOnStonesSolution
+testCountJewelsInStones() -> countJewelsInStones_StonesAreInJewels_CoutedOk, or something using given when then rule
+
++12+
+Consider using assetThat(actual).isEqualTo(expected)
+
++16+
+Split it to different tests - positive, negative, edge cases
+
+ */
